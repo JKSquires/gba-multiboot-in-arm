@@ -4,7 +4,7 @@ Lets a host GBA send a program to a client GBA without the client needing a cart
 
 **Note: unless a proper header is added, these programs will not work on real hardware (nor some emulators).**
 I do not include the bitmap of the Nintendo logo in the header in order to avoid copyright infringement.
-If you want to run this program on an emulator, I'd recommend [mGBA](https://mgba.io/) (**see usage instructions**).
+If you want to run this program on an emulator, I'd recommend [mGBA](https://mgba.io/) (**see [usage instructions](#usage-instructions) below**).
 
 A great example of the GBA's multiboot functionality is [Mario Kart Super Circuit's Single-Pak multiplayer functionality](https://www.youtube.com/watch?v=lIlR8dZ6GTE).
 

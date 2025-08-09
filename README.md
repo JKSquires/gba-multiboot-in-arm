@@ -41,7 +41,7 @@ Indicator pixel turned green but nothing happens on the client GBA | This means 
 
 ### Method 2: mGBA
 
-Step one in this method is optional, but highly recommended. If step one is skipped, the client program will be loaded on the client but not will not run (the Nintendo logo will be garbled).
+Step one in this method is optional, but highly recommended. **If step one is skipped, the client program will be loaded on the client window but not will not run** (the Nintendo logo will be garbled).
 1. *Optional.* build the program, and follow step one in the build instructions.
 2. Run [mGBA](https://mgba.io/) with the GBA BIOS (you will have to source this yourself). This can be done with the following command:
 ```sh

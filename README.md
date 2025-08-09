@@ -1,4 +1,4 @@
-# gba-multiboot-in-arm
+# GBA Multiboot Written in ARM Assembly
 
 Lets a host GBA send a program to a client GBA without the client needing a cartridge.
 

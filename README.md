@@ -8,6 +8,20 @@ If you want to run this program on an emulator, I'd recommend [mGBA](https://mgb
 
 ---
 
+### About the Indicator Pixel
+
+In the top left corner of the host screen, there is a colored pixel to indicate the status of the multiboot process:
+
+Color | Meaning
+----- | -------
+Red | The host GBA has not started trying to send the client GBA the client program. You can press the 'A' button to start the process.
+Dark Yellow | The host GBA has started the process of detecting the client GBA, processing the client program information, and sending the client GBA the client program.
+Green | The host GBA had completed the process of sending the client program to the client GBA (doesn't validate if the program sent to the client works or will even run).
+
+The indicator pixel does not detect if the client GBA has disconnected; it will only represent what the host GBA has done.
+
+---
+
 ## Build Instructions
 
 1. *Optional (but usually necessary to run properly):* Replace the bytes designated for the Nintendo Logo in the header with the proper bitmap data.
